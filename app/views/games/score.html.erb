@@ -1,0 +1,7 @@
+<div class="container mt-5">
+  <h1>Score</h1>
+  <p><%= @message %></p>
+  <p>Your score: <%= @score %></p>
+  <p>Total score: <%= session[:score] %></p>
+  <%= link_to "Try again", new_path, class: "btn btn-primary" %>
+</div>
